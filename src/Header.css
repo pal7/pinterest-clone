@@ -1,0 +1,89 @@
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  height: 56px;
+  background-color: #fff;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0px;
+}
+
+.header__logo .MuiSvgIcon-root {
+  color: #e60023;
+}
+
+.header__search {
+  flex: 1;
+}
+
+.header__searchContainer {
+  background-color: #efefef;
+  display: flex;
+  align-items: center;
+  height: 48px;
+  width: 100%;
+  border-radius: 50px;
+  border: none;
+  padding-left: 10px;
+}
+
+.header__searchContainer > form {
+  display: flex;
+  flex: 1;
+}
+
+.header__searchContainer form input {
+  flex: 1;
+  background-color: transparent;
+  width: 100%;
+  margin-left: 5px;
+  font-size: 16px;
+  border: 0;
+}
+
+.header__searchContainer > form > input:focus,
+.header__searchContainer > form > input:active,
+.header__searchContainer > form > input:hover {
+  outline: 0;
+}
+
+.header__searchContainer form button {
+  display: none;
+}
+
+.header__button {
+  display: flex;
+  height: 48px;
+  min-width: 123px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 24px;
+  background-color: rgb(17, 17, 17);
+  cursor: pointer;
+}
+
+.homePage > a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+}
+
+.following,
+.today {
+  background-color: transparent;
+}
+.following:hover,
+.today:hover {
+  background-color: #e1e1e1;
+}
+.following > a,
+.today a {
+  text-decoration: none;
+  color: #111;
+  font-weight: 700;
+}
+.today > a {
+  text-decoration: none;
+  color: #111;
+  font-weight: 700;
+}

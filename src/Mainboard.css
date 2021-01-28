@@ -1,0 +1,7 @@
+.mainboard {
+  display: flex;
+  padding-top: 15px;
+  width: 80%;
+  flex-wrap: wrap;
+  /* background-color: turquoise; */
+}
